@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quiet Pixel</title>
+<style>
+  :root { --bg: #f6f8ff; --fg: #161a2c; --muted: #5b6280; --accent: #4b6bff; --card: #ffffff; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #12141c; --fg: #e8eaf4; --muted: #9aa0ba; --accent: #8fa2ff; --card: #1b1e29; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 -apple-system, "Segoe UI", Roboto, Inter, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 64px 20px 80px; }
+  h1 { font-size: 36px; margin: 0 0 8px; letter-spacing: -0.5px; }
+  p.lead { color: var(--muted); margin: 0 0 40px; }
+  .app { background: var(--card); border-radius: 18px; padding: 20px 22px; box-shadow: 0 6px 24px rgba(60,80,160,.08); }
+  .app h2 { margin: 0 0 4px; font-size: 21px; }
+  .app p { margin: 0 0 12px; color: var(--muted); }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Quiet Pixel</h1>
+<p class="lead">Небольшие красивые приложения для каждого дня. Все, что можно, работает прямо на телефоне.</p>
+<div class="app">
+  <h2>Скринотека</h2>
+  <p>Поиск по тексту на скриншотах, папки и напоминания о сроках.</p>
+  <a href="skrinoteka/privacy/">Политика конфиденциальности / Privacy Policy</a><br>
+  <a href="skrinoteka/terms/">Условия использования / Terms of Use</a>
+</div>
+<footer>Связь: quietpixel.apps@gmail.com</footer>
+</main>
+</body>
+</html>
